@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+H1 {
+    text-align: center;
+}
+.ipts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  text-align: center;
+}
+button {
+  background-color: green;
+  color: white;
+  font-weight: 900;
+
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+}
+input,
+button {
+    margin: 10px;
+}
+
+.colunas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.colunas p {
+  margin-left: 1%;
+  border: 1px solid gray;
+  padding: 5px;
+}
